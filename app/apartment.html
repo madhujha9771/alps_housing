@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alps Housing Website </title>
+    <link rel="stylesheet" href="/assets/css/FinalPage.css">
+    <link rel="stylesheet" href="index.php">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="apart-header">
+        <nav>
+            <img src="/Images/logo.png" alt="Logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/Finalpage.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/places.html">Places</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Apartments</h1>
+    </section>
+    <!--project  us content -->
+    <section class="form">
+        <h2>Fill the details</h2>
+        <div class="name">
+            First Name: <input type="text" required>
+            Middle Name: <input type="text">
+            Last Name: <input type="text" required>
+        </div>
+        <div class="mail">
+            Email Address: <input type="email" name="mymail" required>
+        </div>
+        <div class="phn">
+            Contact Number: <input type="tel" name="mytel" required>
+        </div>
+        <div id="require">Select Your Credentials</div>
+        <div class="rowin">
+            <div class="type">
+                <label for="mytype">Type</label>
+                <select class="asd1">
+                    <option value="val1" selected>All Type</option>
+                    <option value="val2">For Rent</option>
+                    <option value="val3">For Sale</option>
+                    <option value="val4">Open House</option>
+                </select>
+            </div>
+            <div class="country">
+                <label for="count">Country</label>
+                <select class="asd1">
+                    <option value="op1"selected>All Countries</option>
+                    <option value="op2">America</option>
+                    <option value="op3">Combodia</option>
+                    <option value="op4">Canada</option>
+                    <option value="op5">India</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="rowin">
+            <div class="bed">
+                <label for="bedrm">Bedrooms</label>
+                <select class="asd1">
+                    <option value="opt1" selected>Any</option>
+                    <option value="opt2">01</option>
+                    <option value="opt3">02</option>
+                    <option value="opt4">03</option>
+                    <option value="opt5">04</option>
+                </select>
+            </div>
+            <div class="garage">
+                <label for="garage">Garages</label>
+                <select class="asd1">
+                    <option value="opti1" selected>Any</option>
+                    <option value="opti2">01</option>
+                    <option value="opti3">02</option>
+                    <option value="opti4">03</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="rowin">
+        <div class="bath">
+            <label for="baths">Bathrooms</label>
+            <select class="asd1">
+                <option value="opn1" selected>Any</option>
+                <option value="opn2">01</option>
+                <option value="opn3">02</option>
+                <option value="opn4">03</option>
+            </select>
+        </div>
+        <div class="min">
+            <label for="min">Min Price</label>
+            <select class="asd1">
+                <option value="optn1" selected>Unlimite</option>
+                <option value="optn2">$150.000</option>
+                <option value="optn3">$200.000</option>
+                <option value="optn4">$250.000</option>
+                <option value="optn5">$300.000</option>
+            </select>
+        </div>
+        </div>
+        <br>
+        <div class="rowin">
+            Select color of the house: <input type="color" value="#A52A2A">
+        </div>
+        <div class="rowin" id="book-btn"><button id="bookin">Book Now</button></div>
+    </section>
+
+
+    <section class="footer">
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Alps Housing</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

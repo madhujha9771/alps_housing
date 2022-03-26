@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/indexbuy.css">
+    
+</head>
+<body>
+   
+    <img class="bg" src="/Images/simone-hutsch-_wpce-AsLxk-unsplash.jpg" alt="not upload">
+    <div class="container">
+        <h1>Book now</h3>
+        
+       
+        <form action="book.php" method="post">
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="city" id="city" placeholder="Enter your city">
+            <input type="text" name="state" id="state" placeholder="Enter your state">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <input type="text" name="price" id="price" placeholder="Enter your budget">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <p> Select the type of property you are Booking</p><br>
+            <p>Apartment</p><input type="radio"><p>Bunglow</p><input type="radio">
+            <p>Cottage</p><input type="radio"><p> Builder Floor</p><input type="radio">
+            <p>Other</p><input type="radio">
+            <textarea name="other" id="d" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+            <button class="btn">Submit</button> 
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>

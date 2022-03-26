@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alps Housing Website </title>
+    <link rel="stylesheet" href="./assets/css/FinalPage.css">
+    <link rel="stylesheet" href="index.php">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="/Images/logo.png" alt="Logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/Finalpage.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/places.html">Places</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About us</h1>
+    </section>
+    <!-- about us content -->
+    <section class="about-us">
+        <div class="row">
+           <div class="about-col">
+               <h1>Company Profile</h1>
+               <h2>we are the world fastest growing real estate agency</h2>
+              <p>Estey provides a wide variety of real estate services to investors. We understand that you do not want to be in the business of real estate and property management, but we do. Some of the solutions we offer our clients are:
+
+            </p>
+            <ul type="square">
+                <li>Broker Opinion of Valuation</li>
+                <li>Marketing for sale</li>
+                <li>Lawn Maintenance</li>
+                <li>General Maintenance Services</li>
+                <li>General Contractor</li>
+                <li>Recommend Repairs</li>
+                <li>Managing Property while Occupied</li>
+                <p>Estey is located at 216 First Street, at the corner of First Street and B Street in old town Benicia. This location affords us a very visible corner. One of the best in the City of Benicia.
+
+                   <br> Estey's regular hours of operation are: Monday through Friday from 9:30 a.m. to 5:00 p.m. Closed for lunch 12 to 1 except by appointment.
+                    
+                   <br> Property shown on weekends by appointment.
+                    
+                    <br>
+                    Check out our online features or call us today at 707.745.0924.</p>
+                
+               
+            </ul>
+            <p>For more information Explore now</p>
+               <a href="https://www.esteyrealestate.com/company-profile" class="hero-btn red-btn">Explore now</a>
+            </div> 
+           <div class="about-col">
+           <img src="Images/christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg" alt="">
+           <img src="Images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="">
+        </div> 
+        </div>
+    </section>
+    
+
+ 
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p><strong> Alps Group of Housing</strong> is reimagining real estate to make it easier to unlock life’s next chapter.
+
+            As the most-visited real estate website in the United States, <br>Alps and its affiliates offer customers an on-demand experience for selling, buying, renting and financing with transparency and nearly seamless <br>end-to-end service. </p>
+            
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Alps Housing</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

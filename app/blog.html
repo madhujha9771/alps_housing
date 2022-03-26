@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alps Housing Website </title>
+    <link rel="stylesheet" href="/assets/css/FinalPage.css">
+    <link rel="stylesheet" href="index.php">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="/Images/logo.png" alt="Logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/Finalpage.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/places.html">Places</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>our Buildings</h1>
+    </section>
+    <!-- about us content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/Images/daniel-chen-cNaEqXSsZ0k-unsplash (1).jpg" alt="">
+                <h2>our buildings</h2>
+                <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum beatae e sit amet consectetur adipisicing elit. Ea libero dignissimos, asperiores impedit, culpa reprehenderit sunt nemo velit ullam, quia neque praesentium. Fugiat ut quasi delectus id voluptas, saepe cumque tempora ducimus architecto dicta.
+
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores fuga optio esse itaque officia voluptate accusamus aliquid quis velit necessitatibus magni nobis mollitia quia, error, maxime repellendus incidunt explicabo laborum rem. Aliquam, perspiciatis doloremque!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magni fuga, omnis veritatis explicabo itaque nobis voluptas maxime laudantium officiis quam architecto et. Recusandae ex atque vel tenetur a dolorem sequi ut sapiente praesentium.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, et dolore natus minima beatae aut voluptatum expedita nostrum ullam fugit possimus accusamus, autem vitae, ad quia? Est incidunt labore repellendus maxime sint libero dolor?
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum beatae ea odio esse voluptates maxime cupiditate quam totam nemo vel neque perspiciatis qui odit voluptatum sunt, similique, obcaecati cumque soluta, explicabo molestias mollitia dolores? Numquam ea maiores repellat assumenda illum necessitatibus? Consequatur laboriosam dignissimos distinctio magnam provident repellendus, error dolore ipsum fugiat, odit accusantium, nostrum quaerat iure nam amet odio. Sequi mollitia ut illo repellendus excepturi praesentium quam vitae!</p>
+             <div class="comment-box">
+                 <h3>Leave a comment</h3>
+                 <form  class="comment-form">
+                     <input type="text" placeholder="Enter your name">
+                     <input type="email" placeholder="Enter your email">
+                     <textarea rows="6" placeholder="enter your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    
+                     
+                     
+                 </form>
+
+             </div>
+            </div>
+            <div class="blog-right">
+                <h3>Our clients</h3>
+                <div>
+                   <span>Delhi</span> 
+                   <span>2765</span>
+                </div>
+                <div>
+                    <span>Kolkata</span> 
+                    <span>7231</span>
+                 </div>
+                 <div>
+                    <span>Mumbai</span> 
+                    <span>3729</span>
+                 </div>
+                 <div>
+                    <span>Chennai</span> 
+                    <span>753</span>
+                 </div>
+                 <div>
+                    <span>pune</span> 
+                    <span>6421</span>
+                 </div>
+            </div>
+        </div>
+            
+            
+    </section>
+
+ 
+
+
+    <section class="footer">
+       
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Alps Housing</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

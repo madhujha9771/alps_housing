@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alps Housing Website </title>
+    <link rel="stylesheet" href="./assets/css/FinalPage.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="/Images/logo.png" alt="Logo">
+            <a href="/index.html" class="sign_in">Sign in</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/FinalPage.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/places.html">Places</a></li>
+                    <li><a href="/testimonials.html"> Our clients</a></li>
+                    <li><a href="/book_now.html">Book now</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Welcome to 'ALPS HOUSING'</h1>
+            <p>Whether you're buying, selling or renting, we can help you move forward.</p>
+            <a href="/knowmore.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <section class="cat">
+        <h1>Change Starts Here</h1>
+        <input type="search" name="mySearch" id="searching" placeholder="Enter an Address, Neighbourhood, City or ZIP Code">
+        <button class="hold"><img src="/Images/searched.png" alt="Search"></button>
+
+        <div class="row">
+            <div class="cat-col">
+                <img src="/Images/buy.jpg" alt="Image">
+                <h3>Buy a home</h3>
+                <p>Find your place with an immersive photo experience and the most listings, including things you won't find anywhere else.</p> <br>
+                <button class="btn"><a href="/buy.html">Search homes</a></button>
+            </div>
+            <div class="cat-col">
+                <img src="/Images/sale.jpg" alt="Image">
+                <h3>Sell a home</h3>
+                <p>Whether you get a cash offer through Alps Housing Offers or choose to sell traditionally, we can help you navugate a successful sale.</p>
+                <button class="btn"><a href="/sellpage.html">See your options</a></button>
+            </div>
+            <div class="cat-col">
+                <img src="/Images/rent.jpg" alt="Image">
+                <h3>Rent a home</h3>
+                <p>We're creating a seamless online experience - from shopping on the largest rental network, to applying, to paying rent.</p> <br>
+                <button class="btn"><a href="/">See your options</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="places">
+        <h1>Our Places</h1>
+        <p>Don't Buy the House, Buy the Neighbourhood.</p>
+        <div class="row">
+            <div class="places-col">
+                <img src="/Images/first.jpg" alt="Image">
+                <div class="layer">
+                    <h3>DUBAI</h3>
+                </div>
+            </div>
+            <div class="places-col">
+                <img src="/Images/second.jpg" alt="Image">
+                <div class="layer">
+                    <h3>  INDIA</h3>
+                </div>
+            </div>
+            <div class="places-col">
+                <img src="/Images/third.jpg" alt="Image">
+                <div class="layer">
+                    <h3>AMERICA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Mental happiness is equally important to your physical comfort.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/Images/security.jpg" alt="Image">
+                <h3>Security</h3>
+                <p>We securing today for a better tomorrow.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/Images/outdoor play area.jpg" alt="Image">
+                <h3>Outdoor play area</h3>
+                <p>“Kids don't remember their best day of TV”</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/Images/gym.jpg" alt="Image">
+                <h3>Gym</h3>
+                <p>Trendy Gym, Trendy Exercise.</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        
+   
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/Images/car parking.jpg" alt="Image">
+                <h3>Car Parking</h3>
+                <p>Park the car and relax</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/Images/lift.jpg" alt="Image">
+                <h3>Lift</h3>
+                <p>Made for safety Be safe with us </p>
+            </div>
+            <div class="facilities-col">
+                <img src="/Images/pool.jpg" alt="Image">
+                <h3>Pool</h3>
+                <p>The swimming pool to fall far.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>What Our Client Says</h1>
+        <p id="line">Our Clients reviews are more important to us.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="/Images/dp1.jpg" alt="">
+                <div>
+                    <p>I recently sold a house and while this can be a very stressful process, I felt 110% confident by partnering with Alps Housing Company. They were candid, provided great feedback, helped explain clearly all details and managed the actual sale negotiation brilliantly. In addition, they were extremely responsive to every one of my questions, no matter how small. As I move forward to now BUY my next house, I am extremely certain this company will be right to help me navigate this process.</p>
+                    <h3>Kristina Ken</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="/Images/dp2.jpg" alt="">
+                <div>
+                    <p>My wife and I had a dream of downsizing from our house in London into a small condo closer to where we work and play in Portland. Alps Housing skilled team helped make that dream a reality. The sale went smoothly, and we just closed on an ideal new place we're excited to call home. Nobody knows Portland and the peninsula better than the company. They really listens to clients and goes the extra mile with customer service, too.</p>
+                    <h3>Harshit Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Registration.</h1>
+        <a href="/contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p><strong> Alps Group of Housing</strong> is reimagining real estate to make it easier to unlock life’s next chapter.
+
+            As the most-visited real estate website in the United States, <br>Alps and its affiliates offer customers an on-demand experience for selling, buying, renting and financing with transparency and nearly seamless <br>end-to-end service. </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Alps Housing</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+ 
+</body>
+</html>

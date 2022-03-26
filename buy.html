@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/FinalPage.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="/Images/logo.png" alt="Logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/Finalpage.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/places.html">Places</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    
+
+    <section class="places">
+        <h1>Our Houses</h1>
+        <p>Don't Buy the House, Buy the Neighbourhood.</p>
+        <div class="row">
+            <div class="places-col">
+                <img src="/Images/apartment.jpg" alt="Image">
+                <div class="layer">
+                    <h3>Apartment</h3>
+
+                </div>
+                <a href="/apartment.html" class="hero-btn red-btn">Book now</a>
+            </div>
+            <div class="places-col">
+                <img src="/Images/bunglow.jpg" alt="Image">
+                <div class="layer">
+                    <h3> Bungalow</h3>
+                </div>
+                <a href="/book_now.html" class="hero-btn red-btn">Book now</a>
+            </div>
+            <div class="places-col">
+                <img src="/Images/cabin.jpg" alt="Image">
+                <div class="layer">
+                    <h3>Cabin</h3>
+                </div>
+                <a href="/book_now.html" class="hero-btn red-btn">Book now</a>
+            </div>
+        </div>
+   
+    </section>
+    <section class="places">
+        <h1>Our special Houses</h1>
+        <p>Don't Buy the House, Buy the Neighbourhood.</p>
+        <div class="row">
+            <div class="places-col">
+                <img src="/Images/coach house.jpg" alt="Image">
+                <div class="layer">
+                    <h3>Coach house</h3>
+                </div>
+                <a href="/book_now.html" class="hero-btn red-btn">Book now</a>
+            </div>
+            <div class="places-col">
+                <img src="/Images/cave house.jpg" alt="Image">
+                <div class="layer">
+                    <h3> Cave house</h3>
+                </div>
+                <a href="/book_now.html" class="hero-btn red-btn">Book now</a>
+            </div>
+            <div class="places-col">
+                <img src="/Images/chalet.jpg" alt="Image">
+                <div class="layer">
+                    <h3>Chalet</h3>
+                </div>
+                <a href="/book_now.html" class="hero-btn red-btn">Book now</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p><strong> Alps Group of Housing</strong> is reimagining real estate to make it easier to unlock life’s next chapter.
+
+            As the most-visited real estate website in the United States, <br>Alps and its affiliates offer customers an on-demand experience for selling, buying, renting and financing with transparency and nearly seamless <br>end-to-end service. </p>
+            
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Alps Housing</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+   
+</body>
+</html>

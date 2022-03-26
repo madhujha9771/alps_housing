@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alps Housing Website </title>
+    <link rel="stylesheet" href="/assets/css/FinalPage.css">
+    <link rel="stylesheet" href="index.php">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">  
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header" id="bgimg">
+        <nav>
+            <img src="/Images/logo.png" alt="Logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/Finalpage.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/places.html">Places</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>More About Us</h1>
+    </section>
+
+    <h2>Our Services</h2>
+    <section class="visit">
+        <div class="sect">
+            <div class="idiv"><i class="fa fa-gamepad"></i><h3>Lifestyle</h3></div>
+            <br>
+            <p>The best lifestyle is provided by Alps Housing. Our company is spread in most of coutries of Asia and America. We provide you all features which one needed for a comfort-ful life. Your satisfaction is our priority.</p>
+            <button class="sect-btn"><a href=""> Click to View</a></button>
+        </div>
+        <div class="sect">
+            <div class="idiv"><i class="fa fa-usd"></i><h3>Loans</h3></div>
+            <br>
+            <p>Loan is also provided by our company if you are eligible to refund it. Our interest rate is also very low as compare to other companies. We deal with all the customers unconditionally. You will surely get happy if you deal with us.</p>
+            <button class="sect-btn"> <a href="https://www.jotform.com/build/211863448267463" target="_blank">Click to View</a> </button>
+        </div>
+        <div class="sect">
+            <div class="idiv"><i class="fa fa-home"></i><h3>Sell</h3></div>
+            <br>
+            <p>Sell your home on your rates. We sell homes on our conditions so that you as well as we and buyer, all get profit. You can compare prices with other sites as they are too high from ours.</p>
+            <button class="sect-btn"><a href=""> Click to View </a></button>
+        </div>
+    </section>
+   
+    <h2>Latest News</h2>
+    <section class="lnews">
+        <div class="latest-news" id="balcony">
+            <div class="latest">
+                Home with Balcony <br>
+                new <br>
+                25 May, 2021
+            </div>
+        </div>
+        <div class="latest-news" id="travel">
+            <div class="latest">
+                Travel Home <br>
+                new <br>
+                7 January, 2021
+            </div>
+        </div>
+        <div class="latest-news" id="garden">
+            <div class="latest">
+                Home with Garden <br>
+                new <br>
+                19 September, 2021
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Alps Housing</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
